@@ -16,9 +16,20 @@ export default {
 @import '../css/variables.scss';
 @import '../css/style.scss';
 
-main {
-    background-image:url('../assets/matt-artz-429832-unsplash.jpg');
+main { 
     grid-area:mn;
+    position: relative;
 }
+
+main::before {
+  content: "";
+  z-index:-1;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image:url('../assets/matt-artz-429832-unsplash.jpg');
+  filter:grayscale(10%) contrast(86%);
+}
+
 </style>
 

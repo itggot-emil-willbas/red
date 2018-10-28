@@ -31,6 +31,7 @@ export default {
   display:grid;
   height:90vw;
   grid-template-rows:70vh minmax(20vh,30vh) minmax(5vh,20vh);
+  grid-gap:10px;
   grid-template-areas:
   'mn mn mn'
   'sc sc sc'
