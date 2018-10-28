@@ -1,0 +1,64 @@
+{
+  "employees": {
+    "0": {
+      "id": 0,
+      "name": "Blixt Gordon",
+      "age": 63,
+      "city": "Göteborg"
+    },
+    "1": {
+      "id": 1,
+      "name": "Kalle Kallesson",
+      "age": 73,
+      "city": "Göteborg"
+    },
+    "2": {
+      "id": 2,
+      "name": "Johanna Eriksson",
+      "age": 34,
+      "city": "Göteborg"
+    },
+    "3": {
+      "id": 3,
+      "name": "Ida Hultman",
+      "age": 65,
+      "city": "Göteborg"
+    },
+    "4": {
+      "id": 4,
+      "name": "Darth Vader",
+      "age": 24,
+      "city": "Anderstorp"
+    },
+    "5": {
+      "id": 5,
+      "name": "Gordon Blixt",
+      "age": 33,
+      "city": "Göteborg"
+    },
+    "6": {
+      "id": 6,
+      "name": "Gordon Ramsey",
+      "age": 43,
+      "city": "Mölndal"
+    },
+    "7": {
+      "id": 7,
+      "name": "Ramsey Grey",
+      "age": 25,
+      "city": "Göteborg"
+    },
+    "8": {
+      "id": 8,
+      "name": "Gandalf Gray",
+      "age": 34,
+      "city": "Göteborg"
+    },
+    "9": {
+      "id": 9,
+      "name": "Slim Borgudd",
+      "age": 45,
+      "city": "Stockholm"
+    }
+  }
+}
