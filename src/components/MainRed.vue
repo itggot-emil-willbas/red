@@ -1,13 +1,23 @@
 <template>
     <main>
         <h1>Main</h1>
+        <LokalJSON/>
+        <AxiosJSON/>
+
+        
     </main>
     
 </template>
 
 <script>
+import LokalJSON from '@/components/LokalJSON.vue'
+import AxiosJSON from '@/components/AxiosJSON.vue'
+
 export default {
-    name:'MainRed'
+    name:'MainRed',
+    components:{
+        LokalJSON,AxiosJSON
+        }
 }
 </script>
 
@@ -19,6 +29,11 @@ export default {
 main { 
     grid-area:mn;
     position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    h1{
+        width:100%;
+    }
 }
 
 main::before {
